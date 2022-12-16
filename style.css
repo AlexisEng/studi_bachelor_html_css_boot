@@ -5,10 +5,29 @@ html {
 
 body {
     background-image: url("./images/background_image.jpg");
-    
-    width: 100%;
-    height: 100%;
-
     background-size: cover;
     background-position: center;
+}
+
+.principale {
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+}
+
+.first-bloc {
+    background-color: white;
+    grid-column: 2;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 60px;
+}
+
+.first-bloc > img {
+    width: 90%;
+}
+
+.second-bloc {
+    color: white;
+    grid-column: 2;
 }

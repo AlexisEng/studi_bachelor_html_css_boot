@@ -27,7 +27,62 @@ body {
     width: 90%;
 }
 
+.input-bloc {
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    color: grey;
+}
+
+input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 95%;
+}
+
+.connexion {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+}
+
+.connexion > button {
+    background-color: orange;
+    border-color: orange;
+    border-radius: 8px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.connexion > a {
+    height: 30px;
+    line-height: 28px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+#leftImage {
+    width: 170px;
+}
+
+#rightImage {
+    width: 170px;
+    height: 43px;
+    transform: translate(0, 11px);
+}
+
+
 .second-bloc {
     color: white;
     grid-column: 2;
+}
+
+.second-bloc > ul {
+    list-style: none;
 }

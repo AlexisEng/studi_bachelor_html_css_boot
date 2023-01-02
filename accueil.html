@@ -9,51 +9,49 @@
 
 <body>
     <header>
-        <img src="images/logoStudi.png" alt="Logo Studi en couleurs">
-        <img src="images/logoMessage.png" alt="Logo Message">
-        <span>Des questions sur votre formation ?</span>
-        <div class="vl"></div>
-        <img src="images/logoHorloge.png" alt="Logo Horloge">
-        <time>00:00:00</time>
-        <div class="vl"></div>
-        <progress max="100" value="70"></progress>
-        <div><span>70%</span></div>
-        <div class="vl"></div>
-        <img src="images/logoTrophee.png" alt="Logo Trophee">
-        <div class="vl"></div>
-        <img src="images/logoUsers.png" alt="Logo Users">
-        <img src="images/logoMail.png" alt="Logo Mail">
-        <img src="images/logoRoueDentee.png" alt="Logo Roue Dentee">
-        <img src="images/logoDeconnexion.png" alt="Logo Deconnexion"> 
+        <img src="images/logoStudi.png" alt="Logo Studi en couleurs" height="100%">
+        <div class="right-header">
+            <img src="images/logoMessage.png" alt="Logo Message" width="auto" height="100%">
+            <span id="question">Des questions sur votre formation ?</span>
+            <div class="vl"></div>
+            <img src="images/logoHorloge.png" alt="Logo Horloge" width="auto" height="100%">
+            <time id="timedate">00:00:00</time>
+            <div class="vl"></div>
+            <progress max="100" value="70"></progress>
+            <div><span id="pourcent">70%</span></div>
+            <div class="vl"></div>
+            <img id="trophee" src="images/logoTrophee.png" alt="Logo Trophee" width="auto" height="100%"> 
+            <div class="vl"></div>
+            <img src="images/logoUsers.png" alt="Logo Users" width="auto" height="100%">
+            <img src="images/logoMail.png" alt="Logo Mail" width="auto" height="100%">
+            <img src="images/logoRoueDentee.png" alt="Logo Roue Dentee" width="auto" height="100%"> 
+            <img src="images/logoDeconnexion.png" alt="Logo Deconnexion" width="auto" height="100%">
+        </div> 
     </header>
 
     <main>
 
-        <div>
-            <div>
-                <ul>
-                    <li><img src="images/logoUsers.png" alt="Avatar de l'utilisateur"></li>
-                    <li>Alexis ENGELAERE</li>
-                    <li>Bachelor Développeur PHP/Symfony 2022-2024</li>
-                    <li>Promo MECHELIN</li>
-                    <li>Voir toutes vos formations</li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li>Fil d'actualité</li>
-                    <li>Médiathèque</li>
-                    <li>Favoris</li>
-                    <li>Live</li>
-                    <li>Campus</li>
-                    <li>Teams</li>
-                    <li>Forum Elèves</li>
-                    <li>Forum Formateur</li>
-                    <li>Correction des copies</li>
-                    <li>Messagerie</li>
-                    <li>Newsletter</li>
-                </ul>
-            </div>
+        <div class="first-part">
+            <ul class="first-list">
+                <li><img src="images/logoUsers.png" alt="Avatar de l'utilisateur" width="auto" height="80px"></li>
+                <li>Alexis ENGELAERE</li>
+                <li>Bachelor Développeur PHP/Symfony 2022-2024</li>
+                <li>Promo MECHELIN</li>
+                <li><u>Voir toutes vos formations</u></li>
+            </ul>
+            <ul class="second-list">
+                <li>Fil d'actualité</li>
+                <li>Médiathèque</li>
+                <li>Favoris</li>
+                <li>Live</li>
+                <li>Campus</li>
+                <li>Teams</li>
+                <li>Forum Elèves</li>
+                <li>Forum Formateur</li>
+                <li>Correction des copies</li>
+                <li>Messagerie</li>
+                <li>Newsletter</li>
+            </ul>
         </div>
 
         <div>
@@ -98,23 +96,24 @@
                         </div>
                     </div>
                 </div>
-                <aside>
-                    <div>
-                        <h2>Je filtre mes actualités</h2>
-                        <input type="text" value="Sélectionnez un ou plusieurs tags">
-                    </div>
-                    <div>
-                        <h2>Evénements à venir</h2>
-                        <p>Aujourd'hui</p>
-                        <p>DESIGN : Application - Conception de la maquette d'une vidéo</p>
-                        <p>il y a 12 minutes de 20:00 à 21:00</p>
-                    </div>
-                    <div>
-                        <img src="images/logoStudi.png" alt="Logo Studi">
-                    </div>
-                </aside>
             </div>
         </div>
+
+        <aside>
+            <div>
+                <h2>Je filtre mes actualités</h2>
+                <input type="text" value="Sélectionnez un ou plusieurs tags">
+            </div>
+            <div>
+                <h2>Evénements à venir</h2>
+                <p>Aujourd'hui</p>
+                <p>DESIGN : Application - Conception de la maquette d'une vidéo</p>
+                <p>il y a 12 minutes de 20:00 à 21:00</p>
+            </div>
+            <div>
+                <img src="images/logoStudi.png" alt="Logo Studi">
+            </div>
+        </aside>
 
     </main>
     

@@ -49,7 +49,7 @@ input {
     padding: 15px;
 }
 
-.connexion > button {
+button {
     background-color: orange;
     border-color: orange;
     border-radius: 8px;
@@ -77,12 +77,18 @@ input {
     transform: translate(0, 11px);
 }
 
-
 .second-bloc {
     color: white;
     grid-column: 2;
+    text-align: center;
 }
 
 .second-bloc > ul {
     list-style: none;
+}
+
+#footer-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }

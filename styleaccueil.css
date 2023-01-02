@@ -1,0 +1,72 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 2px 0px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+}
+
+.right-header > img {
+    object-fit: contain;
+}
+
+header > img {
+    margin-left: 90px;
+    aspect-ratio: 5 / 2;
+    object-fit: contain;
+}
+
+.vl {
+    border-left: 1px solid black;
+    height: 100%;
+    padding-left: 12px;
+}
+
+#question, #pourcent, #timedate {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#trophee {
+    margin-right: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 15% 55% 30%;
+}
+
+.first-part {
+    background: linear-gradient(to top,#0B1D36,#31486A);
+    color: white;
+}
+
+.first-part > ul {
+    list-style-type: none;
+}
+
+.first-list {
+    text-align: center;
+    padding: 0;
+}
+
+.second-list {
+    line-height: 30px;
+}
+
+.second-list > li:hover {
+    background-color: orange;
+    color: black;
+}

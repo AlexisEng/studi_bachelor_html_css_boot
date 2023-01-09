@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Notre page d'accueil Studi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="styleaccueil.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -59,39 +61,42 @@
             <div>
                 <div>
                     <menu>
-                        <li><button>Mon Fil</button></li>
-                        <li><button>Officiels</button></li>
-                        <li><button>Epinglés</button></li>
-                        <li><button>Mes messages</button></li>
+                        <li><button class="btn btn-outline-secondary">Mon Fil</button></li>
+                        <li><button class="btn btn-outline-secondary">Officiels</button></li>
+                        <li><button class="btn btn-outline-secondary">Epinglés</button></li>
+                        <li><button class="btn btn-outline-secondary">Mes messages</button></li>
                     </menu>
-                    <div>
-                        <p>Exprimez-vous auprès de votre promo*</p>
-                        <textarea placeholder="Ecrivez un message et ajoutez des #tags"></textarea>
-                        <p>Audience de votre message*</p>                        
-                        <textarea placeholder="Sélectionnez une promotion"></textarea>
-                        <div>
-                            <button>Attacher des images/fichiers</button>
-                            <button>Publier</button>
+                    <div class="border border-secondary p-2 m-3">
+                        <p class="font-weight-bold">Exprimez-vous auprès de votre promo*</p>
+                        <textarea rows="5" placeholder="Ecrivez un message et ajoutez des #tags" class="w-100"></textarea>
+                        <p class="font-weight-bold">Audience de votre message*</p>                        
+                        <textarea rows="3" placeholder="Sélectionnez une promotion" class="w-100"></textarea>
+                        <div class="d-flex justify-content-between">
+                            <button type="button" class="btn btn-success">Attacher des images/fichiers</button>
+                            <button type="button" class="btn btn-success">Publier</button>
                         </div>
                     </div>
-                    <div>
-                        <article>
-                            <img src="images/logoUsers.png" alt="Avatar de l'utilisateur qui publie">
-                            <h2>Alexis ENGELAERE *Formateur</h2>
-                            <p>il y a 2 heures.</p>
+                    <div class="border border-secondary p-2 m-3">
+                        <article class="d-flex">
+                            <img src="images/logoUsers.png" alt="Avatar de l'utilisateur qui publie" class="w-25 h-25">
                             <div>
-                                <p>La séance HTML/CSS est en cours</p>
-                                <button>Visiter le lien sur app.studi.fr</button>
+                                <h2>Alexis ENGELAERE</h2>
+                                <p class="font-weight-bold text-success">Formateur</p>
+                                <p class="font-weight-bold text-secondary">il y a 2 heures.</p>
+                                <div>
+                                    <p>La séance HTML/CSS est en cours</p>
+                                    <button type="button" class="btn btn-danger">Visiter le lien sur app.studi.fr</button>
+                                </div>
                             </div>
                         </article>
                         <div>
-                            <div>
-                                <img src="images/logoUsers.png" alt="Mon avatar">
-                                <textarea placeholder="Ecrire un commentaire..."></textarea>
-                            </div>
-                            <div>
-                                <button>Attacher une image</button>
-                                <button>Commenter</button>
+                            <div class="border border-secondary p-2 m-2">
+                                <img src="images/logoUsers.png" alt="Mon avatar" class="w-25 h-25">
+                                <textarea rows="3" placeholder="Ecrire un commentaire..." class="w-100 p-2"></textarea>
+                                <div class="d-flex justify-content-between">
+                                    <button type="button" class="btn btn-success">Attacher une image</button>
+                                    <button type="button" class="btn btn-success">Commenter</button>
+                                </div>
                             </div>
                         </div>
                     </div>
